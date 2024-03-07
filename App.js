@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Title from './Title/';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Eduardo, Gabriel</Text>
       <Text>Desenvolvimento de dispositivos moveis</Text>
+      <Text>Aula dia 07-03-2024</Text>
+      <Title/>
       <StatusBar style="auto" />
     </View>
   );
